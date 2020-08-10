@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+body{
+    background-image: url(https://imagizer.imageshack.com/img924/9374/0iasBh.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    
+}
+
+#title{
+    color: rgb(175, 139, 48);
+}
+
+#description{
+    color: rgb(175, 139, 48);
+}
+
+.form{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    padding: 1.2rem;
+    color: white;
+}
+
+#survey-form{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-field{
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    width: 80%;
+    padding: 1em;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#comments{
+    padding: 1em;
+}
+
+.pista{
+    font-size:0.9em;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+.submit-button{
+    color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(175, 139, 48);
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    color: black;
+    background-color: rgba(255, 241, 46, 0.911);
+}
+
+label{
+    padding-top: 5px;
+}
