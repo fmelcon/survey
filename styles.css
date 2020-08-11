@@ -12,6 +12,7 @@ header{
 body{
     background-image: url(https://imagizer.imageshack.com/img924/9374/0iasBh.png);
     background-repeat: no-repeat;
+    background-position: bottom center;
     background-size: cover;
 }
 
